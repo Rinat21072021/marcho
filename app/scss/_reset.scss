@@ -1,14 +1,15 @@
-html{
+html {
   box-sizing: border-box;
 }
+
 *,
 *::after,
-*::before{
+*::before {
   box-sizing: inherit;
 }
 
 ul[class],
-ol[class]{
+ol[class] {
   padding: 0;
 }
 
@@ -27,15 +28,15 @@ figure,
 blockquote,
 figcaption,
 dl,
-dd{
+dd {
   margin: 0;
 }
 
-ul[class]{
+ul [class]{
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
 }
@@ -43,12 +44,14 @@ img{
 input,
 button,
 textarea,
-select{
-  font:inherit;
+select {
+  font: inherit;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 //{
 //  font-size: inherit;
 //}
